@@ -1,0 +1,19 @@
+{
+  "name": "nomadicweb.github.io",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "4.9.7",
+    "body-parser": "1.9.0",
+    "jade": "1.7.0",
+    "stylus": "0.49.2",
+    "axis": "0.3.0",
+    "gulp": "3.8.8",
+    "prismic.io": "1.0.20"
+  },
+  "devDependencies": {
+    "express-livereload": "0.0.24",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-stylus": "^1.3.3"
+  }
+}
