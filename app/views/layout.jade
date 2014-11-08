@@ -1,12 +1,19 @@
 doctype
 html
   head
-    title NomadicWeb - #{title}
+    title @TODO - #{title}
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    meta(name='viewport', content='width=device-width', initial-scale='1')
+
     != LRScript
   body
     .container
       .col-md-10.col-md-offset-1.wrapper
         .main
           block content
+
+    // javascripts
+    script(src="/javascripts/jquery.js")
+    script(src="/javascripts/bootstrap.min.js")
+    script(src="/javascripts/app.js")

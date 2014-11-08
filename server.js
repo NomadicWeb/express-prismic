@@ -3,7 +3,7 @@
 // ====================================================
 var express    = require('express'),
     livereload = require('express-livereload'),
-    prismic    = require('./app/helpers/prismic-helpers'),
+    prismic    = require('./app/assets/javascripts/prismic/prismic-helpers'),
     app        = express();
 
 
