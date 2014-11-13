@@ -1,6 +1,6 @@
 exports.Configuration = {
 
-  apiEndpoint: 'https://first-demo.prismic.io/api',
+  apiEndpoint: 'https://newry-urban-sports.prismic.io/api',
 
   // -- Access token if the Master is not open
   // accessToken: 'xxxxxx',
