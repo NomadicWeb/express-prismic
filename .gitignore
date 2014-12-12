@@ -27,8 +27,5 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
-# ignore user configuration, only include sample
-app/config/conf.js
-
 # don't commit compiled css!
 app/assets/stylesheets/style.css
