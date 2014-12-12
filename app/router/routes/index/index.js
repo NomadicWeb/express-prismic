@@ -8,7 +8,7 @@ router.get('/', prismicHelper.route(function(req, res, ctx){
     .query(Prismic.Predicates.at("document.type", "blog"))
     .ref(ctx.ref).submit(function(err, docs){
       if (err){ prismicHelper.onPrismicError(err, req, res); return; }
-      res.render('index', { docs: docs });
+      res.render('index', { "docs": docs });
     });
 }));
 
