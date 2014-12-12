@@ -1,8 +1,11 @@
 extends layout
 
 block content
-  ul#list
-    -  for(var i=0; i<docs.results.length; i++) {
-    -    li
-    -      console.log(docs.results[i].getText("blog.summary"));  
-    -    }
+  - var results = docs.results
+  +list("blog.title", results)
+
+mixin list(selector, docs)
+  ul
+    each doc in docs
+      each frag in doc
+        li= frag.getText(selector) 
